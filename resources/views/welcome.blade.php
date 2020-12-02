@@ -101,6 +101,7 @@
                     </label>
                   </div>
                 </div>
+<<<<<<< HEAD
               </div>
             </fieldset>
             <div class="form-group row">
@@ -111,6 +112,41 @@
                   <label class="form-check-label" for="gridCheck1">
                     Example checkbox
                   </label>
+=======
+            @endif
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                <li class="active"><a href="#hero">Home</a></li>
+                  <li><a href="#testimonials">Reviews</a></li>
+                  <li><a href="#testimonials">Reviews</a></li>
+                  <li><a href="#team">Team</a></li>
+                  <li><a href="#team">Team</a></li>
+                  <li class="drop-down"><a href="">TermsFeed</a>
+                    <li class="drop-down"><a href="">TermsFeed</a>
+                    <ul>
+                      <li><a href= "{{ url('terms') }}" >Terms of Use</a></li>
+                      <li><a href= "{{ url ('privacy') }}" >Privacy Policy</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="{{ url('contactus')}}">Contact Us</a></li>
+
+                </ul>
+              </nav>
+
+            <div class="content">
+                <div class="title m-b-md">
+                    Laravel
+                </div>
+
+                <div class="links">
+                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://laracasts.com">test</a>
+                    <a href="https://laracasts.com">test</a>
+                    <a href="https://laracasts.com">test</a>
+                    <a href="https://laracasts.com">test</a>
+>>>>>>> de67703640496d45cf79d7cd9c0fc62b6d3ed343
                 </div>
               </div>
             </div>
