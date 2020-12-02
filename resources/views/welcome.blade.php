@@ -101,18 +101,6 @@
                     </label>
                   </div>
                 </div>
-<<<<<<< HEAD
-              </div>
-            </fieldset>
-            <div class="form-group row">
-              <div class="col-sm-2">Checkbox</div>
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
-                    Example checkbox
-                  </label>
-=======
             @endif
 
             <nav class="nav-menu d-none d-lg-block">
@@ -146,7 +134,12 @@
                     <a href="https://laracasts.com">test</a>
                     <a href="https://laracasts.com">test</a>
                     <a href="https://laracasts.com">test</a>
->>>>>>> de67703640496d45cf79d7cd9c0fc62b6d3ed343
+                    <a href="https://laracasts.com">test</a>
+                    <a href="https://laracasts.com">test</a>
+                    <a href="https://laracasts.com">test</a>
+                    <a href="https://laracasts.com">test</a>
+                    <a href="https://laracasts.com">test</a>
+                    <a href="https://laracasts.com">test</a>
                 </div>
               </div>
             </div>
@@ -156,7 +149,5 @@
               </div>
             </div>
           </form>
-        
-
     </body>
 </html>
