@@ -82,21 +82,22 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                 <li class="active"><a href="#hero">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#services">Services</a></li>
                   <li><a href="#testimonials">Reviews</a></li>
-                  <li><a href="#team">Team</a></li>  
+                  <li><a href="#testimonials">Reviews</a></li>
+                  <li><a href="#team">Team</a></li>
+                  <li><a href="#team">Team</a></li>
                   <li class="drop-down"><a href="">TermsFeed</a>
+                    <li class="drop-down"><a href="">TermsFeed</a>
                     <ul>
                       <li><a href= "{{ url('terms') }}" >Terms of Use</a></li>
                       <li><a href= "{{ url ('privacy') }}" >Privacy Policy</a></li>
                     </ul>
                   </li>
                   <li><a href="{{ url('contactus')}}">Contact Us</a></li>
-        
+
                 </ul>
               </nav>
-              
+
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
